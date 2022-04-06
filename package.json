@@ -1,0 +1,19 @@
+{
+  "name": "primerproyecto",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect ./src/server.js",
+    "express": "nodemon --inspect ./src/server.js"
+  },
+  "author": "Juance",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.10.0"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
